@@ -11,11 +11,9 @@ ul{
     justify-content: space-between;
     padding: 20px;
 }
-<<<<<<< HEAD
 .logo{
     height: 80px;
-
-=======
+}
 .mainbutton{
 
     background-color: crimson;
@@ -29,5 +27,4 @@ ul{
     cursor: pointer;
     box-shadow: 2px 2px yellow;
     transform: scale(1.1);
->>>>>>> boton-registrate
 }
