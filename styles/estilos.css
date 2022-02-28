@@ -10,13 +10,20 @@ ul{
     display:flex;
     justify-content: space-between;
     padding: 20px;
+    background-color: rgb(156, 238, 231);
+    border-bottom: 1px solid greenyellow;
+    box-shadow: 1px 1px  gray;
+}
+.navbar>li{
+    display: flex;
+    align-items: center;
 }
 .logo{
     height: 80px;
 }
 .mainbutton{
 
-    background-color: crimson;
+    background-color: rgb(218, 116, 243);
     color: white;
     border-radius: 10px;
     padding: 5px 10px; 
@@ -33,6 +40,10 @@ ul{
     border: 1px solid gray;
     padding: 4px;
     border-radius: 8px;
+    width: 300px;
+    display: flex;
+    justify-content:space-between;
+
 }
 .buscar:focus-within{
     border: 1px solid blue;
@@ -43,4 +54,8 @@ ul{
     border: 0px;
     
 
+}
+.agrandar:hover{
+    transform: scale(1.1);
+    color: dimgray;
 }
