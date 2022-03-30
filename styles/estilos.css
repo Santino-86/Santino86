@@ -59,3 +59,31 @@ ul{
     transform: scale(1.1);
     color: dimgray;
 }
+.mainsection{
+    display: flex;
+    
+    justify-content: space-between;
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+.contenedorimagen{
+    width: 240px;
+    height: 350px;
+    display: flex;
+    
+    
+}
+.contenedorimagen>img{
+    object-fit: cover;
+    width: 100%;
+}
+.cardcontainer{
+    display: flex;
+    
+    
+}
+.card{
+    margin: 10px;
+}
